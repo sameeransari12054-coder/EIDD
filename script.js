@@ -42,7 +42,7 @@
   
   // Hint display: alert with clue
   function showHint() {
-    alert("✨ Hint: The password is my name as you call me with love ✨\n💖 It starts with 'S' and ends with 'r' ... Sameer 💖");
+    alert("✨ Hint: The password is my name as you call me with love ✨\n💖 It starts with 'S' and ends with 'r' ...  💖");
   }
   
   // Add event listeners for unlock
