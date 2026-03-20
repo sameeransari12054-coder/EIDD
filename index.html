@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Eid Mubarak 🌙 | Locked Surprise for My Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="screen" id="lockScreenContainer">
+  <!-- LOCKED FRONT PAGE -->
+  <div class="lock-icon">🔒🌙✨</div>
+  <h2>❤️ Eid Mubarak ❤️</h2>
+  <div class="sub">A secret gift for my princess</div>
+  <div class="password-box">
+    <span>🔑</span>
+    <input type="password" id="passwordInput" placeholder="Enter password" autocomplete="off">
+  </div>
+  <div class="hint-text" id="hintBtn">💡 Hint : tap for clue</div>
+  <button id="unlockBtn">✨ Unlock Surprise ✨</button>
+  <div id="errorMsg" style="min-height: 32px;"></div>
+  <footer>💕 only for the one I love 💕</footer>
+</div>
+
+<!-- SECOND PAGE: EID MAIN PAGE (photo + audio + pink theme) -->
+<div class="screen eid-page" id="eidMainPage">
+  <div style="text-align: center;">
+    <span class="emoji-rain">🌙✨💖🐑🎉</span>
+    <h2 class="greeting-text">Eid Mubarak, My Love!</h2>
+    <div class="love-note">
+      🌸 May this Eid bring endless joy, sweet moments, and all the happiness your beautiful heart deserves. You are my greatest blessing. 💕
+    </div>
+
+    <!-- Photo Section: customisable (my choice any photo) -->
+    <div class="photo-frame" id="photoFrame">
+      <img id="displayImage" src="image3aaf.png" >
+    </div>
+    <!-- <div class="custom-file">
+      <label for="photoInput">📸 Choose Your Photo</label>
+      <input type="file" id="photoInput" accept="image/*">
+      <span style="font-size: 0.7rem;">(add any special pic)</span>
+    </div> -->
+
+    <!-- Audio Section: add any audio -->
+    <div class="audio-player">
+      <span>🎵🎶</span>
+      <audio id="audioPlayer" controls>
+        <source src="" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+      <button id="uploadAudioBtn" class="upload-audio-btn">🎧 Upload Audio</button>
+      <input type="file" id="audioFileInput" accept="audio/*" style="display: none;">
+    </div>
+
+    <!-- extra love and animations -->
+    <div style="display: flex; justify-content: center; gap: 16px; font-size: 2rem; margin: 10px 0;">
+      <span style="animation: bounceEmoji 0.8s infinite;">🌙</span>
+      <span style="animation: bounceEmoji 1s infinite 0.2s;">⭐</span>
+      <span style="animation: bounceEmoji 1.2s infinite 0.4s;">💖</span>
+      <span style="animation: bounceEmoji 0.9s infinite;">🐫</span>
+    </div>
+
+    <footer>✨ my forever Eid wish ✨ &nbsp; | &nbsp; ❤️ I love you ❤️</footer>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
